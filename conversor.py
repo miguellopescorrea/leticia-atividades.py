@@ -4,9 +4,9 @@ L=float(input(""))
 def conversor_km(km):
     return km/0.6
 def conversor_m(m):
-    return m/100
+    return m*1000
 def conversor_l(L):
-    return L/100
+    return L*1000
 
 converter = input("")
 
